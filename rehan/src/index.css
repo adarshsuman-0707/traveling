@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace, cursive;;
+}
+font-style{
+  font-family: "Playfair", serif;
+  
+  
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+/* Custom Scrollbar Styles */
+.scrollContainer::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Track color */
+  border-radius: 10px;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: #d9832e; /* Thumb color */
+  border-radius: 10px;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #ba6e1c; /* Hover color */
+}
+
+.scrollContainer {
+  scrollbar-width: thin;
+  scrollbar-color: #d9832e #f1f1f1; /* Firefox */
+}
+
+

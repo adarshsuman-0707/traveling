@@ -1,0 +1,52 @@
+#form {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 13.5%;
+  
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="date"],
+  select {
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10%;
+    font-family: monospace;
+  }
+  option{
+  
+    
+  }
+  
+  #button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d9832e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+  
+  }
+  
+  #button:hover {
+    background-color: black;
+  }
+  
+  @media (max-width:800px) {
+    #form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      /* gap: 10%; */
+    
+    }
+  }
+  
